@@ -1,9 +1,9 @@
 
 ## Run Magic-BLAST to identify phages in Salmonella WGS
 
-``
+```
 magicblast -db $BLAST_DB -sra $i -no_unaligned -num_threads $THREADS -out $OUT_DIR/$i.sam
-``
+```
 
 ## Calculate coverage of the phages
 
